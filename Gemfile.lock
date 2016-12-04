@@ -1,9 +1,11 @@
 GEM
-  remote: https://rubygems.org/
+  remote: https://gems.ruby-china.org/
   specs:
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
+    faraday (0.10.0)
+      multipart-post (>= 1.2, < 3)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     jekyll (3.3.1)
@@ -17,8 +19,9 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.8.0)
-      jekyll (~> 3.3)
+    jekyll-gist (1.4.0)
+      octokit (~> 4.2)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -29,8 +32,9 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.0)
-      jekyll (~> 3.3)
+    multipart-post (2.0.0)
+    octokit (4.6.2)
+      sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
@@ -40,17 +44,20 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
+    sawyer (0.8.1)
+      addressable (>= 2.3.5, < 2.6)
+      faraday (~> 0.8, < 1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.3.1)
-  jekyll-feed (~> 0.6)
-  minima (~> 2.0)
-
-RUBY VERSION
-   ruby 2.3.1p112
+  jekyll
+  jekyll-gist
+  jekyll-paginate
+  jekyll-watch
+  kramdown
+  rouge
 
 BUNDLED WITH
    1.13.6
