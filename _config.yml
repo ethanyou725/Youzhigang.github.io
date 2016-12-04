@@ -5,7 +5,7 @@ logo: /myblog/static/img/avatar.png
 github: https://github.com/Youzhigang
 about: 一个会python的页面仔
 
-baseurl: /
+baseurl: ""
 
 
 # share:
