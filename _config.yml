@@ -12,12 +12,25 @@ baseurl: ""
 #   twitter_username: \#
 #   fb_appid: 000000000000
 
+# comment:
+    # disqus: leopa
+    # duoshuo:
+
+
+social:
+    #weibo:
+    github: https://github.com/Youzhigang
+    # twitter:
+    mail: themaninthemood@gmail.com
+
+
+
 
 enableTags: true
 tagarray: []
 
-paginate: 5
-per_page: 5
+paginate: 20
+per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]

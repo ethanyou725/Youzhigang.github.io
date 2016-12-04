@@ -35,6 +35,22 @@
               {% endif %}
             </p>
           </div>
+         <!-- Email -->
+        <div class="pull-right" >
+          {% if site.social.github %}
+             <a href="{{site.social.mail}}" title="Contact me" >
+               <i class='fa fa-github fa-2x'></i>
+               <strong>github</strong>
+             </a>
+          {% endif %}
+
+        {% if site.social.mail %}
+           <a href="mailto:{{site.social.mail}}" title="Contact me" >
+             <i class='fa fa-envelope fa-2x'></i>
+             <strong>{{site.social.mail}}</strong>
+           </a>
+        {% endif %}
+          </div>
         </div>
       </div>
     </div>

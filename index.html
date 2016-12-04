@@ -11,9 +11,9 @@ title: Blog
         </div>
         <div class="row-content">
           <div class="least-content">{{ post.date | date_to_string }}</div>
-          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          <h6 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h6>
 
-          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 21 }}</p>
+          <p class="list-group-item-text" >{{ post.content | strip_html | truncatewords: 5 }}<a href="{{ post.url | prepend: site.baseurl }}">...[Read More]</a></p>
         </div>
       </div>
       <div class="list-group-separator"></div>
