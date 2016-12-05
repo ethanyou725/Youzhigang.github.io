@@ -93,6 +93,7 @@ if __name__ == '__main__':
 
 ```
 少量改动,改成了threading的方式,windows下可以跑,有时候会初选UnicodeDecodeError,不知道怎么回事
+
 ```
 import os
 import socket
