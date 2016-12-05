@@ -44,7 +44,7 @@ vacuum = true
 
 也有写成xml的,没试过,应该可以
 
-```
+```xml
 <uwsgi><socket>:8000</socket><chdir>/home/work/src/sites/testdjango1/testdjango/mysite</chdir><module>django_wsgi</module><processes>4</processes> <!-- 进程数 --><daemonize>uwsgi.log</daemonize></uwsgi>
 ```
 
@@ -54,7 +54,9 @@ vacuum = true
 uwsgi --ini my_project.ini
 ```
 
+
 正常最后几行如下
+
 
 ```
 spawned uWSGI master process (pid: 18554)
@@ -64,13 +66,17 @@ spawned uWSGI worker 3 (pid: 18558, cores: 1)
 spawned uWSGI worker 4 (pid: 18559, cores: 1)
 ```
 
+
 修改nginx的配置文件,不同版本和系统不太一样,本人的ubun16版本,配置文件目录为
+
 
 ```
 /etc/nginx/sites-enabled/default
 ```
 
+
 或者在conf.d下新建配置以cnf结尾的配置文件
+
 
 ```
 server {
@@ -88,13 +94,16 @@ server {
 		alias /home/myweb/collected_static; #静态文件目录
 	}
 ```
+
 linsen是对外的端口号
 - 其他
 把setting.py里的debug设置为false
 关于静态文件
+
 ```
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 ```
+
 运行```python manage.py collectstatic```会把静态文件全部拷贝到 settings.py 中设置的 STATIC_ROOT 文件夹中
 static_root文件夹就设置成nginx static localtion 的alias
 这样就可以了
