@@ -8,7 +8,7 @@ Hello, welcome to my Site!
 
 My name is Youzhigang, you can also call me Green.
 
-It sounds like Glenn in Deading Walking in Chinese  pronunciation ;)
+It sounds like Glenn in Deading Walking in Chinese  pronunciation -:) .
 
 I graduated as a master of Chemical engineering and Technology.
 
