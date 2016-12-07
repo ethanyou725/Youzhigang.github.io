@@ -4,17 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Hello, welcome to my Site!
+**Hello, welcome to my Site!**
 
-My name is Youzhigang, you can also call me Green.
+**My name is Youzhigang, you can also call me Green.**
 
-It sounds like Glenn in Deading Walking in Chinese  pronunciation -:) .
+**It sounds like Glenn in Deading Walking in Chinese  pronunciation -:) .**
 
-I graduated as a master of Chemical engineering and Technology.
+**I graduated as a master of Chemical engineering and Technology.**
 
-But something happened during the past year, I started my career in programing.
+**But something happened during the past year, I started my career in programing.**
 
-I prefer scripting language,such as JavaScript,Python.
+**I prefer scripting language,such as JavaScript,Python.**
 
 >Life is short, you need Python
 
